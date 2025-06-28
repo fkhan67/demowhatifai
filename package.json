@@ -1,0 +1,27 @@
+{
+  "name": "whatifai",
+  "version": "1.0.0",
+  "description": "AI-powered platform for exploring alternate historical scenarios",
+  "main": "api/chatgpt.js",
+  "scripts": {
+    "start": "node api/chatgpt.js",
+    "dev": "nodemon api/chatgpt.js",
+    "test": "node test-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["ai", "history", "chatgpt", "whatif", "alternate-history"],
+  "author": "Fardin Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fkhan67/demowhatifai.git"
+  }
+} 
